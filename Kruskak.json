@@ -1,0 +1,34 @@
+{
+  "name" : "Kruskak",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4 5\n1 2 10\n1 3 6\n3 4 4\n2 4 15\n1 4 5",
+    "output" : "2 3\n0 3\n0 1",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/myalgos",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "myalgos.Kruskak",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.03.23",
+  "contestName" : "Codeforces Round #232 (Div. 1)",
+  "truncate" : true,
+  "inputClass" : "InputReader.InputReader",
+  "outputClass" : "net.egork.io.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
